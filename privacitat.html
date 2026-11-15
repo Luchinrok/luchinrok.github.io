@@ -3,148 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Política de privacitat · Festuc</title>
-  <meta name="description" content="Quines dades fa servir Festuc i per a què.">
-  <meta name="theme-color" content="#639922">
-  <link rel="icon" href="icons/festuc-icon-any.svg" type="image/svg+xml">
+  <title>Festuc</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://luchinrok.github.io/festuc/privacitat.html">
+  <meta http-equiv="refresh" content="0; url=/festuc/privacitat.html">
   <style>
-    :root {
-      --bg: #FAFAF7; --card: #FFFFFF; --text: #1A1A1A; --soft: #5F5E5A;
-      --line: rgba(0,0,0,.08); --accent: #3B6D11; --chip: #C0DD97;
-      color-scheme: light dark;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) {
-        --bg: #1A1A1A; --card: #2C2C2A; --text: #F5F5F2; --soft: #B4B2A9;
-        --line: rgba(255,255,255,.08); --accent: #A6D16E; --chip: #27500A;
-      }
-    }
-    :root[data-theme="dark"] {
-      --bg: #1A1A1A; --card: #2C2C2A; --text: #F5F5F2; --soft: #B4B2A9;
-      --line: rgba(255,255,255,.08); --accent: #A6D16E; --chip: #27500A;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0; background: var(--bg); color: var(--text);
-      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    }
-    main { max-width: 680px; margin: 0 auto; padding: 24px 16px 48px; }
-    header { display: flex; align-items: center; gap: 12px; }
-    header img { width: 48px; height: 48px; border-radius: 12px; }
-    .kicker { margin: 0; color: var(--soft); font-size: 14px; }
-    h1, .h1 { font-size: 30px; line-height: 1.2; margin: 20px 0 4px; }
-    h2 { font-size: 20px; margin: 32px 0 8px; }
-    p, li { max-width: 65ch; }
-    ul { padding-left: 1.2em; }
-    a { color: var(--accent); font-weight: 600; }
-    .muted { color: var(--soft); }
-    .langs { margin-top: 12px; font-size: 14px; }
-    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
-    th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
-    th { font-weight: 600; }
-    .box { background: var(--card); border-radius: 14px; padding: 4px 16px; }
-    hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 0; }
+    :root { color-scheme: light dark; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font: 16px/1.5 system-ui, sans-serif; background: #FAFAF7; color: #1A1A1A; text-align: center; padding: 16px; box-sizing: border-box; }
+    @media (prefers-color-scheme: dark) { body { background: #1A1A1A; color: #F5F5F2; } a { color: #A6D16E; } }
+    a { color: #3B6D11; font-weight: 600; }
   </style>
 </head>
 <body>
-<main>
-  <article lang="ca">
-    <header>
-      <img src="icons/icon-192.png" alt="" width="48" height="48">
-      <p class="kicker">Festuc · Compra'm, Cuina'm, Menja'm</p>
-    </header>
-    <h1>Política de privacitat</h1>
-    <p class="muted">Darrera actualització: 15 de novembre de 2026</p>
-    <p class="langs"><a href="#en">English version</a></p>
-
-    <p>Festuc és una app per portar el menjar de casa: la llista de la compra, les receptes i el que tens a la nevera. No té anuncis, no té comptes d'usuari, no fa servir eines d'analítica ni de seguiment i no ven ni cedeix dades a ningú.</p>
-
-    <h2>El que es queda al teu mòbil</h2>
-    <p>Tot el que escrius a Festuc es guarda només al teu dispositiu: els productes i les dates de caducitat, les llistes de la compra i els supermercats, les receptes i el menú de la setmana, l'historial de compres, el pressupost i les preferències (idioma, tema, avisos). També les còpies de seguretat automàtiques. No s'envia res enlloc mentre no activis la sincronització.</p>
-
-    <h2>Sincronització amb la família (opcional)</h2>
-    <p>Si actives la sincronització, Festuc crea un <b>codi de família</b> a l'atzar (per exemple, EMF-7K9P-X3A4) i guarda una còpia d'aquestes dades a <a href="https://firebase.google.com/support/privacy" rel="noopener">Google Firebase</a> perquè les vegin els mòbils que hi connectis:</p>
-    <ul>
-      <li>els productes de la nevera, el congelador i el rebost, amb les dates;</li>
-      <li>la llista de la compra, els supermercats i l'ordre dels passadissos;</li>
-      <li>l'historial de compres, els productes habituals i el pressupost mensual;</li>
-      <li>el menú de la setmana.</li>
-    </ul>
-    <p>No s'hi guarda el teu nom, ni el correu, ni cap identificador del mòbil. El codi és la clau: qui el tingui pot veure i canviar aquestes llistes, així que comparteix-lo només amb la gent de casa.</p>
-    <p>Si desconnectes la sincronització, el mòbil deixa d'enviar-hi res. Les dades que ja hi havia no s'esborren soles: si vols que les esborrem, mira l'apartat «Esborrar les teves dades».</p>
-
-    <h2>Escàner de codis de barres (opcional)</h2>
-    <p>Si fas servir l'escàner, Festuc et demanarà permís per a la càmera. La imatge es llegeix al mateix mòbil i no es guarda ni s'envia. Només s'envia el <b>número del codi de barres</b> a <a href="https://world.openfoodfacts.org/privacy" rel="noopener">Open Food Facts</a> i, si allà no el troba, a <a href="https://www.upcitemdb.com/" rel="noopener">UPCitemdb</a>, per saber el nom del producte. No s'hi envia res més.</p>
-
-    <h2>Avisos</h2>
-    <p>Si actives els avisos de caducitat, Festuc et demana permís per enviar notificacions. Els avisos es calculen i es mostren al mateix mòbil.</p>
-
-    <h2>Compartir</h2>
-    <p>Quan comparteixes una llista o un codi, Festuc obre el menú de compartir del mòbil. Tu tries a qui l'envies; Festuc no en sap res més.</p>
-
-    <h2>Proveïdors</h2>
-    <div class="box">
-      <table>
-        <tr><th>Servei</th><th>Per a què</th><th>Quan</th></tr>
-        <tr><td>Google Firebase (Firestore)</td><td>Guardar les llistes compartides per codi de família</td><td>Només si actives la sincronització</td></tr>
-        <tr><td>Open Food Facts · UPCitemdb</td><td>Trobar el nom d'un producte pel codi de barres</td><td>Només quan escaneges</td></tr>
-        <tr><td>GitHub Pages</td><td>Servir l'app</td><td>Sempre (com qualsevol web, veu l'adreça IP)</td></tr>
-      </table>
-    </div>
-    <p>Totes les connexions van xifrades (HTTPS).</p>
-
-    <h2>Infants</h2>
-    <p>Festuc no està pensada per a infants ni en recull dades de cap persona en concret.</p>
-
-    <h2>Esborrar les teves dades</h2>
-    <ul>
-      <li><b>Al mòbil:</b> a Configuració → Dades → «Esborrar tot» ho pots esborrar tot. També s'esborra si desinstal·les l'app o esborres les seves dades.</li>
-      <li><b>A la sincronització:</b> envia'ns el teu codi de família i esborrarem les dades d'aquell codi tan aviat com puguem.</li>
-    </ul>
-
-    <h2>Contacte</h2>
-    <p>Per a qualsevol dubte o petició sobre privacitat, escriu-nos a <a href="https://github.com/Luchinrok/luchinrok.github.io/issues" rel="noopener">github.com/Luchinrok/luchinrok.github.io/issues</a>. Si és per esborrar dades, no hi posis el codi en públic: demana-hi un contacte privat i te'l donarem.</p>
-
-    <h2>Canvis</h2>
-    <p>Si canviem aquesta política, ho direm en aquesta mateixa pàgina amb una data nova.</p>
-
-    <p style="margin-top:32px"><a href="./">‹ Torna a Festuc</a></p>
-  </article>
-
-  <hr>
-
-  <article lang="en" id="en">
-    <h2 class="h1">Privacy policy</h2>
-    <p class="muted">Last updated: 15 November 2026</p>
-
-    <p>Festuc helps you manage food at home: shopping lists, recipes and what's in your fridge. It has no ads, no user accounts, no analytics or tracking tools, and it never sells or shares data.</p>
-
-    <h2>Data that stays on your phone</h2>
-    <p>Everything you enter (products and expiry dates, shopping lists and shops, recipes and meal plans, purchase history, budget and settings) is stored only on your device, together with the automatic backups. Nothing is sent anywhere unless you turn on sync.</p>
-
-    <h2>Family sync (optional)</h2>
-    <p>If you turn on sync, Festuc creates a random <b>family code</b> and stores a copy of your products, shopping lists, shops, purchase history, budget and meal plan in <a href="https://firebase.google.com/support/privacy" rel="noopener">Google Firebase</a>, so the phones you connect can see them. No name, email or device identifier is stored. Anyone with the code can see and change those lists, so only share it with your household. Disconnecting stops sending data; to have the stored data deleted, see below.</p>
-
-    <h2>Barcode scanner (optional)</h2>
-    <p>The scanner asks for camera permission. The image is read on the device and is never stored or sent. Only the <b>barcode number</b> is sent to <a href="https://world.openfoodfacts.org/privacy" rel="noopener">Open Food Facts</a> and, if not found there, to <a href="https://www.upcitemdb.com/" rel="noopener">UPCitemdb</a>, to look up the product name.</p>
-
-    <h2>Notifications</h2>
-    <p>Expiry reminders need notification permission. They are calculated and shown on the device.</p>
-
-    <h2>Children</h2>
-    <p>Festuc is not directed at children and does not collect data about any specific person.</p>
-
-    <h2>Deleting your data</h2>
-    <p>On the phone: Settings → Data → “Delete everything” removes it all; uninstalling or clearing the app's data also removes it. Synced data: send us your family code and we'll delete the data for that code as soon as we can.</p>
-
-    <h2>Contact</h2>
-    <p>Write to us at <a href="https://github.com/Luchinrok/luchinrok.github.io/issues" rel="noopener">github.com/Luchinrok/luchinrok.github.io/issues</a>. For deletion requests, don't post your code publicly: ask for a private contact and we'll give you one.</p>
-
-    <h2>Changes</h2>
-    <p>If this policy changes, we'll update this page with a new date.</p>
-
-    <p style="margin-top:32px"><a href="./">‹ Back to Festuc</a></p>
-  </article>
-</main>
+  <p>Festuc ara és a <a id="go" href="/festuc/privacitat.html">luchinrok.github.io/festuc</a>.</p>
+  <script>
+    // Conserva ?query i #hash. Mateix origen: les dades del mòbil no es perden.
+    var dest = '/festuc/privacitat.html' + (location.search || '') + (location.hash || '');
+    document.getElementById('go').href = dest;
+    location.replace(dest);
+  </script>
 </body>
 </html>
