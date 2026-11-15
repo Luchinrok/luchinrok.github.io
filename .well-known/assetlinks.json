@@ -1,19 +1,14 @@
 [
   {
     "_APP": "Festuc (/festuc/)",
-    "_AVIS_1": "⚠️ PLANTILLA — NO OPERATIVA. Digital Asset Links per verificar el TWA.",
-    "_AVIS_2": "Aquest fitxer NOMÉS és vàlid servit des de l'ARREL de l'origen: https://luchinrok.github.io/.well-known/assetlinks.json. És una llista: una entrada per app (Festuc, Xala, 3Tocs). Cada app edita NOMÉS la seva.",
-    "_TODO_1": "package_name: substituir per l'ID real de l'app Android (ex. org.festuc.twa), decidit en generar el TWA amb Bubblewrap/PWABuilder.",
-    "_TODO_2": "sha256_cert_fingerprints: substituir el placeholder per l'empremta SHA-256 REAL del certificat de signatura (Play App Signing → Configuració > Integritat de l'app; o keytool -list -v sobre el keystore). El format és 32 parells hex separats per ':'.",
-    "_TODO_3": "En productivitzar: eliminar tots els camps _AVIS_* i _TODO_* (Digital Asset Links no els necessita) i col·locar el fitxer a l'arrel de l'origen definitiu.",
     "relation": [
       "delegate_permission/common.handle_all_urls"
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "REEMPLAÇA.amb.el.package.name",
+      "package_name": "io.github.luchinrok.festuc",
       "sha256_cert_fingerprints": [
-        "AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99"
+        "CD:77:AF:A0:E4:5F:1E:2E:DA:15:34:F4:CB:3D:96:62:F2:79:8B:0A:78:02:61:23:31:34:A7:7D:91:33:A6:F7"
       ]
     }
   },
