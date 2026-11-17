@@ -21,7 +21,8 @@
       "namespace": "android_app",
       "package_name": "io.github.luchinrok.xala",
       "sha256_cert_fingerprints": [
-        "82:49:51:92:60:61:3C:02:DD:33:E2:CB:8A:EF:0A:3D:F7:A5:E0:FC:81:48:98:08:DB:74:EA:A2:E2:49:41:F3"
+        "82:49:51:92:60:61:3C:02:DD:33:E2:CB:8A:EF:0A:3D:F7:A5:E0:FC:81:48:98:08:DB:74:EA:A2:E2:49:41:F3",
+        "40:E5:44:82:ED:E8:A9:57:E0:3E:A9:74:2F:A0:B4:60:BD:B3:45:0C:E7:B3:F4:88:8B:CE:52:7D:72:BE:D1:2E"
       ]
     }
   }
