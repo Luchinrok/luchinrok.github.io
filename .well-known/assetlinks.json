@@ -8,7 +8,8 @@
       "namespace": "android_app",
       "package_name": "io.github.luchinrok.festuc",
       "sha256_cert_fingerprints": [
-        "CD:77:AF:A0:E4:5F:1E:2E:DA:15:34:F4:CB:3D:96:62:F2:79:8B:0A:78:02:61:23:31:34:A7:7D:91:33:A6:F7"
+        "CD:77:AF:A0:E4:5F:1E:2E:DA:15:34:F4:CB:3D:96:62:F2:79:8B:0A:78:02:61:23:31:34:A7:7D:91:33:A6:F7",
+        "CC:EF:DE:18:E8:55:8A:D4:43:E6:D8:C4:B4:DF:9F:3A:47:80:35:AF:0B:97:3A:BF:74:F1:F8:45:5B:88:31:ED"
       ]
     }
   },
