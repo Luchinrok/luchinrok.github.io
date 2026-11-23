@@ -27,5 +27,19 @@
         "40:E5:44:82:ED:E8:A9:57:E0:3E:A9:74:2F:A0:B4:60:BD:B3:45:0C:E7:B3:F4:88:8B:CE:52:7D:72:BE:D1:2E"
       ]
     }
+  },
+  {
+    "_APP": "3Tocs (/volei/)",
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.luchinrok.trestocs",
+      "sha256_cert_fingerprints": [
+        "08:B2:A0:E9:16:52:D8:BD:0F:83:DF:91:3E:79:B5:CF:FA:D5:50:CA:A2:2C:43:0D:06:9C:B3:7F:3A:A3:B4:CD",
+        "27:58:FD:9C:2D:96:53:11:F3:53:0D:93:F8:73:B7:60:BD:4B:14:C9:78:27:67:D5:A5:8A:58:08:B0:F7:75:57"
+      ]
+    }
   }
 ]
